@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('API_KEY','XXXX'); //bot api
+define('API_KEY','256888531:AAGkBnBrcsYDEdAfo9Ghsu7id07IKHsu6FI'); //bot api
 
 function makeHTTPRequest($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -103,7 +103,7 @@ if(isset($update->callback_query)){
                 [['text'=>'گروه پرسش و پاسخ برنامه نویسی','url'=>$links['mhrdev']]],
                 [['text'=>'کانال آموزش برنامه نویسی','url'=>$links['mhrdev_c']]],
                 [['text'=>'کپی کردن لینک ها','url'=>'https://telegram.me/tbdinfo_bot?start=rec']],
-                [['text'=>'تماس با توسعه دهنده','url'=>'https://telegram.me/pp2007ws']]
+                [['text'=>'تماس با توسعه دهنده','url'=>'https://telegram.me/XxattackerxX']]
             ]
         ])
     ]));
