@@ -88,9 +88,9 @@ if(isset($update->callback_query)){
 
 
     $links = [
-        'tbd'=>'https://telegram.me/joinchat/BdES-z-VdLwCVkbsFxggvg',
+        'tbd'=>'https://telegram.me/NobLest',
         'tbd_c'=>'https://telegram.me/joinchat/BdES-z-8OoIwyyLePo-_aw',
-        'mhrdev'=>'https://telegram.me/joinchat/BdES-zwBMnQM1W88YwjSpg',
+        'mhrdev'=>'https://telegram.me/joinchat/',
         'mhrdev_c'=>'https://telegram.me/joinchat/BdES-zwJKKGeFT8434LVsQ'
     ];
     var_dump(makeHTTPRequest('sendMessage',[
@@ -98,8 +98,8 @@ if(isset($update->callback_query)){
         'text'=>"ربات توسعه یافته برای تبادل های برترین کانال های ای تی تلگرام .",
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
-                [['text'=>'گروه توسعه ربات تلگرام','url'=>$links['tbd']]],
-                [['text'=>'کانال توسعه ربات تلگرام','url'=>$links['tbd_c']]],
+                [['text'=>'Developer','url'=>$links['tbd']]],
+                [['text'=>'Developer2','url'=>$links['tbd_c']]],
                 [['text'=>'گروه پرسش و پاسخ برنامه نویسی','url'=>$links['mhrdev']]],
                 [['text'=>'کانال آموزش برنامه نویسی','url'=>$links['mhrdev_c']]],
                 [['text'=>'کپی کردن لینک ها','url'=>'https://telegram.me/tbdinfo_bot?start=rec']],
